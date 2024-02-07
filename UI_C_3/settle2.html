@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../bar/custom-reset.css">
     <!-- 커스텀 css -->
     <link rel="stylesheet" href="../bar/bar.css">
-    <link rel="stylesheet" href="bid.css">
+    <link rel="stylesheet" href="settle.css">
     <!-- 아이콘 -->
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
@@ -58,30 +58,46 @@
         </div>
     </div>
     <div class="mouw">
-    <section id="sebu">
-        
-        <div class="bid-main">
-            <div class="bid-info">
-                <div class="bid-pic"><img src="../UI_C_1/img/내추럴 티타늄.jpeg"></div>
-                <div class="bid-detail-info">
-                    <h2 class="bi-title">iPhone 15 <span class="bid-in">128GB</span><span class="bi-color" >내추럴 티타늄</span> </h2>
-                    
-                    <p style="font-size: 18px;">즉시구매가<span class="bi-pr">1,650,000원</span></p>
-                    <div class="bid-buttons">
-                        <button type="button" id="bbt" onclick="location.href='../UI_C_3/settle.html'">즉시구입</button>
-                        <button style="margin-left: 5px;" type="button"  id="bbt2">구매입찰</button>
-                    </div>
-                    <div class="inbuy">
-                        <p style="font-size: 12px;">구입 희망가</p>
-                        <input type="text" class="inpps"><i class="glyphicon glyphicon-circle-arrow-right" onclick="location.href='../UI_C_3/settle.html'"></i>
-                    </div>
+    <section id="settles">
+        <div class="ststst">
+            <div class="buu-wrap">
+                <div class="buyer">
+                    <h3>결제</h3>
+                    <p>결제 금액 <span>1,650,000원</span></p>
                 </div>
             </div>
         </div>
+        <div class="set-main real-or" >
+            <div class="or-cont">
+                <ul>
+                    <li>주문을 완료하시면 필요에 따라 KG 이니시스 및 은행 사이트로 이동합니다.</li>
+                    <li>주문액이 ₩50,000 이상인 경우 KG 이니시스 페이지에서 할부 옵션을 선택하실 수 있습니다.</li>
+                    <li>KG 이니시스에서 결제를 마치시면 Apple Store로 자동으로 돌아옵니다.</li>
+                </ul>
+            </div>
+            <h1 style="font-weight: 600; font-size: 35px;">어떻게 결제하시겠습니까?</h1>
+
+            
+            <div class="address-select">
+                <div class="nowad npnc"><input type="radio" name="ad" checked><p >신용 카드 또는 직불 카드<span style="font-size: 12px; color: #86868b; margin-left: 4px;">기본값</span></p></div>
+                <div class="nowad npnc"><input type="radio" name="ad" ><p >카카오 페이</p></div>
+            </div>    
+            <div style="width: 50%; height: 2px; border-top: 1px solid #cbc8c8; margin: 40px 0 0 0;"></div>
+            <div class="address-ck">
+                <h5 style="font-size: 18px; font-weight: 600; margin-bottom: 40px;">배송 주소</h5>
+                <p>서명인</p>
+                <p>충청남도 논산시</p>
+                <p>중앙아파트 103동 509호</p>
+                <p>01046013099</p>
+            </div>
+            <div style="width: 100%; height: 2px; border-top: 1px solid #cbc8c8; margin: 20px 0;"></div>
+            <diV class="address-select">
+                <input type="submit" value="결제">
+            </diV>
+        </div>
     </section>
     </div>
-
-    <script src="bid.js"></script>
     <script src="../bar/bar.js"></script>
+    
 </body>
 </html>

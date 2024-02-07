@@ -27,11 +27,11 @@
     
         <div class="nav iphone-nav">
             <div class="container box">
-                <div class="item"><a href="#"><img class="logo w-logo" src="img/icon_large.svg"></a></div>
+                <div class="item"><a href="../UI_A_1/home.html"><img class="logo w-logo" src="img/icon_large.svg"></a></div>
                 <div class="item store"><a><span >스토어</span></a></div>
                 <div class="item h-mac"><a><span>Mac</span></a></div>
                 <div class="item h-ipad"><a><span>iPad</span></a></div>
-                <div class="item h-iphone"><a href="index02iphone.html"><span>iPhone</span></a></div>
+                <div class="item h-iphone"><a href="iphone.html"><span>iPhone</span></a></div>
                 <div class="item h-watch"><a><span>Watch</span></a></div>
                 <div class="item h-airpod"><a><span>AirPods</span></a></div>
                 <div class="item"><a><span>TV 및 홈</span></a></div>
@@ -39,10 +39,25 @@
                 <div class="item"><a><span>액세서리</span></a></div>
                 <div class="item"><a><span>고객지원</span></a></div>
                 <div class="item"><a><img src="img/sreach.svg"></a></div>
-                <div class="item"><a><img src="img/beg.svg"></a></div>
+                <div class="item beg"><a><img src="img/beg.svg"></a></div>
             </div>
         </div>
     </header>
+    <div class="reple-wrap">
+        <div class="replebot">
+            <h4>관심상품이 비어 있습니다</h4>
+            <div class="reple-acco">
+                <h5>내 계정</h5>
+                <div class="reple-content">
+                    <p><i class="ri-box-3-line"></i>주문</p>
+                    <p><i class="ri-bookmark-line"></i>관심목록</p>
+                    <p><i class="ri-play-circle-line"></i>계정</p>
+                    <p><i class="ri-account-circle-line"></i>로그인</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mouw">
     <section id="top-bar">
         <div class="bar-p">
             <div >
@@ -154,7 +169,7 @@
                 <h1 style="color: #1d1d1f; font-weight: 800; font-size: 42px;">새로움 물씬</h1>
                 <span class="p-price" style="color: #1d1d1f; margin-top: 25px;">₩1,220,000부터</span>
                 <div class="sell-group">
-                    <button type="button">구입하기</button>
+                    <button type="button" onclick="location.href='../UI_C_1/product.html'">구입하기</button>
                     <a style="color: #2997ff; cursor: pointer; font-size: 18px; margin-top: 15px;">더 알아보기 ></a>
                 </div>
                 <div class="iphoneimg2"></div>
@@ -688,7 +703,9 @@
                     <div class="slide-bar">
                         <div class="slid-btn">
                             <div class="s-btn2">
-                                <img src="img2/play_icon__c3e8rw3c7h2e_large.svg" style="width: 100%; height: 100%; background-color: #fff; background-size: contain;" id="btn">
+                                
+                                <img src="img2/play_icon__c3e8rw3c7h2e_large.svg" id="btn" style="cursor: pointer;">
+                                
                             </div>
                         </div>
                         <div class="slide-wrap">
@@ -1257,7 +1274,9 @@
             </div>
         </div>
     </section>
+    </div>
     
     <script src="iphone.js"></script>
+    <script src="../bar/bar.js"></script>
 </body>
 </html>
