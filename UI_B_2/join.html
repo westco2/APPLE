@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <!-- 커스텀 reset css -->
+    <link rel="stylesheet" href="../bar/custom-reset.css">
+    <!-- 커스텀 css -->
+    <link rel="stylesheet" href="../bar/bar.css">
+    <link rel="stylesheet" href="settle.css">
+    <link rel="stylesheet" href="join.css">
+    <!-- 아이콘 -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+</head>
+<body>
+    <header id="header">
+    
+        <div class="nav iphone-nav">
+            <div class="container box">
+                <div class="item"><a href="http://127.0.0.1:5502/UI_A_1/home.html"><img class="logo w-logo" src="img/icon_large.svg"></a></div>
+                <div class="item store"><a href="http://127.0.0.1:5502/UI_A_3/store.html"><span >스토어</span></a></div>
+                <div class="item h-mac"><a><span>Mac</span></a></div>
+                <div class="item h-ipad"><a><span>iPad</span></a></div>
+                <div class="item h-iphone"><a href="http://127.0.0.1:5502/UI_A_2/iphone.html"><span>iPhone</span></a></div>
+                <div class="item h-watch"><a><span>Watch</span></a></div>
+                <div class="item h-airpod"><a><span>AirPods</span></a></div>
+                <div class="item"><a><span>TV 및 홈</span></a></div>
+                <div class="item"><a><span>엔터테인먼트</span></a></div>
+                <div class="item"><a><span>액세서리</span></a></div>
+                <div class="item"><a><span>고객지원</span></a></div>
+                <div class="item"><a><img src="img/sreach.svg"></a></div>
+                <div class="item beg"><a><img src="img/beg.svg"></a></div>
+            </div>
+        </div>
+    </header>
+    <div class="reple-wrap">
+        <div class="replebot">
+            <h4>관심상품이 비어 있습니다</h4>
+            <div class="reple-acco">
+                <h5>내 계정</h5>
+                <div class="reple-content">
+                    <a href="http://127.0.0.1:5502/UI_B_4/order.html"><p><i class="ri-box-3-line"></i>주문</p></a>
+                    <a href="http://127.0.0.1:5502/UI_B_5/attention.html"><p><i class="ri-bookmark-line"></i>관심목록</p></a>
+                    <a href="http://127.0.0.1:5502/UI_B_3/account.html"><p><i class="ri-play-circle-line"></i>계정</p></a>
+                    <a href="http://127.0.0.1:5502/UI_B_1/login.html"><p><i class="ri-account-circle-line"></i>로그인</p></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mouw">
+    <section id="settles">
+        <div class="ststst">
+            <div class="buu-wrap">
+                <div class="buyer">
+                    <h3>회원가입</h3>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <form class="set-main" name="orff"  action="http://127.0.0.1:5502/UI_B_1/login.html" method="get">
+           
+            <div class="address-select">
+                
+                <div class="nowad nonc"><input type="radio" name="ad"><p>APPLE ID 생성</p></div>
+                <!-- <div class="a-box npnc"><p>내주소 사용 <span style="font-size: 12px; color: #86868b; margin-left: 3px;">기본값</span></p></div>
+                <div class="a-box nonc" style="margin-top: 40px;"><p>새 주소 사용</p></div> -->
+                <div class="new-address" >
+                    <div class="info-select2">
+                        <div class="nowad"><input type="text" class="oilo" required><label class="em">성</label></div>
+                    </div>
+                    <div class="info-select2">
+                        <div class="nowad"><input type="text" class="oilo" required><label class="em">이름</label></div>
+                    </div>
+                    <div class="info-select roow">
+                        
+                        
+                    </div>
+                    <div class="info-select2">
+                        <div class="nowad reads"><input type="text" class="oilo" required><label class="em">이메일</label></div>
+                    </div>
+                    <div class="info-select2">
+                        <div class="nowad reads"><input type="password" id="password" name="password" class="oilo" required><label class="em" for="password">암호</label></div>
+                    </div>
+                    <div class="info-select2">
+                        <div class="nowad reads"><input type="text" class="oilo" required><label class="em">핸드폰 번호</label></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="width: 100%; height: 2px; border-top: 1px solid #cbc8c8; margin: 20px 0;"></div>
+            <diV class="address-select">
+                <button id="btt" type="submit">계속</button>
+            </diV>
+        </form>
+    </section>
+    </div>
+
+    <script src="settle.js"></script>
+    <script src="../bar/bar.js"></script>
+    <script src="join.js"></script>
+</body>
+</html>

@@ -31,7 +31,7 @@
                 <div class="item store"><a><span >스토어</span></a></div>
                 <div class="item h-mac"><a><span>Mac</span></a></div>
                 <div class="item h-ipad"><a><span>iPad</span></a></div>
-                <div class="item h-iphone"><a href="../UI_A_2/iphone.html"><span>iPhone</span></a></div>
+                <div class="item h-iphone"><a href="http://127.0.0.1:5502/UI_A_2/iphone.html"><span>iPhone</span></a></div>
                 <div class="item h-watch"><a><span>Watch</span></a></div>
                 <div class="item h-airpod"><a><span>AirPods</span></a></div>
                 <div class="item"><a><span>TV 및 홈</span></a></div>
@@ -59,24 +59,50 @@
     </div>
     <div class="mouw">
     <section id="sebu">
-        
-        <div class="bid-main">
-            <div class="bid-info">
-                <div class="bid-pic"><img src="../UI_C_1/img/내추럴 티타늄.jpeg"></div>
-                <div class="bid-detail-info">
-                    <h2 class="bi-title">iPhone 15 <span class="bid-in">128GB</span><span class="bi-color" >내추럴 티타늄</span> </h2>
-                    
-                    <p style="font-size: 18px;">즉시구매가<span class="bi-pr">1,650,000원</span></p>
-                    <div class="bid-buttons">
-                        <button type="button" id="bbt" onclick="location.href='../UI_C_3/settle.html'">즉시구입</button>
-                        <button style="margin-left: 5px;" type="button"  id="bbt2">구매입찰</button>
-                    </div>
-                    <div class="inbuy">
-                        <p style="font-size: 12px;">구입 희망가</p>
-                        <input type="text" class="inpps"><i class="glyphicon glyphicon-circle-arrow-right" onclick="location.href='../UI_C_3/settle.html'"></i>
+        <div class="title-wraper">
+            <div class="ststst">
+                <div class="buu-wrap">
+                    <div class="buyer">
+                        <h3>구매</h3>
+                        <p>결제 금액 <span>1,650,000원</span></p>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="bid-main">
+            <form class="bid-info" name="buyForm" action="../UI_C_3/settle.html" method="get">
+                <div class="bid-pic"><div class="bid-pic-wrap"><img src="../UI_C_1/img/내추럴 티타늄.jpeg"></div></div>
+                <div class="bid-detail-info">
+                    <h2 class="bi-title">iPhone 15 Pro <span class="bid-in">128GB</span><span class="bi-color" >내추럴 티타늄</span> </h2>
+                    
+                    <p style="font-size: 12px;">즉시구매가<span class="bi-pr">1,650,000원</span></p>
+                    <div class="bid-type-wrap">
+                        <div style="margin-bottom: 15px;">
+                            <span style="color: black; font-weight: 600; font-size: 21px;">구매<span class="co-innert" >&nbsp;방법을 선택해주세요</span></span>
+                        </div>
+                        <div class="bid-type">
+                            <input type="radio" name="bids" class="bid-type-now" checked>
+                            <label class="eem">즉시구매하기</label>
+                        </div>
+                        <div class="bid-type">
+                            <input type="radio" name="bids" class="bid-type-one">
+                            <label class="eem">구매입찰하기</label>
+                        </div>
+                    </div>
+                    <div class="inbuy-wrap">
+                    
+                        <div class="inbuy">
+                            <input type="text" class="inpps" name="prices" >
+                            <i class="glyphicon glyphicon-circle-arrow-right" onclick="location.href='../UI_C_3/settle.html'"></i>
+                            <label class="em">구입 희망가</label>
+                        </div>
+                    </div>
+                    <div class="bid-buttons">
+                        <input type="submit" id="bbt"  value="구입하기" >
+                    </div>
+                    
+                </div>
+            </form>
         </div>
     </section>
     </div>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <!-- 커스텀 reset css -->
+    <link rel="stylesheet" href="../bar/custom-reset.css">
+    <!-- 커스텀 css -->
+    <link rel="stylesheet" href="../bar/bar.css">
+    <link rel="stylesheet" href="attention.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- 아이콘 -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+</head>
+<body>
+    <header id="header">
+        
+        <div class="nav iphone-nav">
+            <div class="container box">
+                <div class="item"><a href="http://127.0.0.1:5502/UI_A_1/home.html"><img class="logo w-logo" src="img/icon_large.svg"></a></div>
+                    <div class="item store"><a href="http://127.0.0.1:5502/UI_A_3/store.html"><span >스토어</span></a></div>
+                    <div class="item h-mac"><a><span>Mac</span></a></div>
+                    <div class="item h-ipad"><a><span>iPad</span></a></div>
+                    <div class="item h-iphone"><a href="http://127.0.0.1:5502/UI_A_2/iphone.html"><span>iPhone</span></a></div>
+                    <div class="item h-watch"><a><span>Watch</span></a></div>
+                    <div class="item h-airpod"><a><span>AirPods</span></a></div>
+                    <div class="item"><a><span>TV 및 홈</span></a></div>
+                    <div class="item"><a><span>엔터테인먼트</span></a></div>
+                    <div class="item"><a><span>액세서리</span></a></div>
+                    <div class="item"><a><span>고객지원</span></a></div>
+                    <div class="item"><a><img src="img/sreach.svg"></a></div>
+                    <div class="item beg"><a><img src="img/beg.svg"></a></div>
+                </div>
+            </div>
+        </header>
+        <div class="reple-wrap">
+            <div class="replebot">
+                <h4>관심상품이 비어 있습니다</h4>
+                <div class="reple-acco">
+                    <h5>내 계정</h5>
+                    <div class="reple-content">
+                        <a href="http://127.0.0.1:5502/UI_B_4/order.html"><p><i class="ri-box-3-line"></i>주문</p></a>
+                        <a href="http://127.0.0.1:5502/UI_B_5/attention.html"><p><i class="ri-bookmark-line"></i>관심목록</p></a>
+                        <a href="http://127.0.0.1:5502/UI_B_3/account.html"><p><i class="ri-play-circle-line"></i>계정</p></a>
+                        <a href="http://127.0.0.1:5502/UI_B_1/login.html"><p><i class="ri-account-circle-line"></i>로그인</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+<div class="mouw">
+    <div class="body3">
+    <section id="sebu">
+        <div class="bid-main">
+            <div class="title1"><h3>관심 목록</h3>
+                <a href="#"  class="toggle-button" onclick="toggleEdit()" id="editButton">편집</a></div>
+                
+            <div class="bid-info">
+                <div class="bid-pic"><img src="../UI_C_1/img/내추럴 티타늄.jpeg"></div>
+                <div class="bid-detail-info">
+                    <h2 class="bi-title">iPhone 15 <span class="bid-in">128GB</span><span class="bi-color" >내추럴 티타늄</span> </h2>
+                    
+                    <p id="text" style="font-size: 18px;">즉시구매가<span class="bi-pr">1,650,000원</span></p>
+                    
+                    <div class="bid-buttons">
+                        <button type="button" onclick="location.href='http://127.0.0.1:5502/UI_C_1/product.html'" id="bbt">더 알아보기</button>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <button type="button" class="share-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M11 16h2V7h3l-4-5-4 5h3z"/><path d="M5 22h14c1.103 0 2-.897 2-2v-9c0-1.103-.897-2-2-2h-4v2h4v9H5v-9h4V9H5c-1.103 0-2 .897-2 2v9c0 1.103.897 2 2 2z"/>
+        </svg>
+    </button>
+    <dialog class="copy-link-dialog">
+        <form>
+            <header>
+                <h2>링크를 공유하세요.</h2>
+                <button class="close-btn secndary" type="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M9.172 16.242 12 13.414l2.828 2.828 1.414-1.414L13.414 12l2.828-2.828-1.414-1.414L12 10.586 9.172 7.758 7.758 9.172 10.586 12l-2.828 2.828z"/><path d="M12 22c5.514 0 10-4.486 10-10S17.514 2 12 2 2 6.486 2 12s4.486 10 10 10zm0-18c4.411 0 8 3.589 8 8s-3.589 8-8 8-8-3.589-8-8 3.589-8 8-8z"/>
+                    </svg>
+                </button>
+            </header>
+            <div class="copy-link-dialog__content">
+                <div class="copy-link-wrapper">
+                    <input id="copy-link-input" type="text" required value="http://127.0.0.1:5502/UI_B_5/attention.html" readonly>
+                    <button class="copy-btn" type="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.465 11.293c1.133-1.133 3.109-1.133 4.242 0l.707.707 1.414-1.414-.707-.707c-.943-.944-2.199-1.465-3.535-1.465s-2.592.521-3.535 1.465L4.929 12a5.008 5.008 0 0 0 0 7.071 4.983 4.983 0 0 0 3.535 1.462A4.982 4.982 0 0 0 12 19.071l.707-.707-1.414-1.414-.707.707a3.007 3.007 0 0 1-4.243 0 3.005 3.005 0 0 1 0-4.243l2.122-2.121z"/><path d="m12 4.929-.707.707 1.414 1.414.707-.707a3.007 3.007 0 0 1 4.243 0 3.005 3.005 0 0 1 0 4.243l-2.122 2.121c-1.133 1.133-3.109 1.133-4.242 0L10.586 12l-1.414 1.414.707.707c.943.944 2.199 1.465 3.535 1.465s2.592-.521 3.535-1.465L19.071 12a5.008 5.008 0 0 0 0-7.071 5.006 5.006 0 0 0-7.071 0z"
+                            />
+                        </svg>
+                        <span id="copy-text">
+                            Copy Link
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </dialog>
+</div>
+</div>
+    <script src="script.js"></script>
+    <script src="attention.js"></script>
+    <script src="../bar/bar.js"></script>
+</body>
+</html>

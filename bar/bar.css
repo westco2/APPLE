@@ -24,3 +24,5 @@ body{position: relative;}
 .reple-acco{font-size: 11px; color: #333336;}
 .reple-acco h5{color: #6e6e73; margin-bottom: 20px; font-size: 13px;}
 .reple-content i{padding-right: 5px;}
+
+.reple-content a {cursor: pointer; text-decoration: none; color: #333336;}
