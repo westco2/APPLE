@@ -9,7 +9,7 @@ window.addEventListener('scroll', function() {
     console.log(box1.offsetTop);
 
     // 원하는 위치에 따라 높이를 변경합니다.
-    if (scrollPosition > box1.offsetTop && scrollPosition < 800) {
+    if (scrollPosition > box1.offsetTop && scrollPosition < 900) {
         element.style.transform = 'translateY(0%)'; // 새로운 높이를 지정합니다.
         this.document
     } else {

@@ -6,7 +6,7 @@ body{width: 100%; background-color: #f5f5f7; position: relative;}
 
 /*iphone main*/
 #top-bar{max-width: 100%; min-height: 100vh; background-color: #fdfdfd;}
-#top-bar .bar-p{padding: 10px 0; display: flex; align-items:start; justify-content: center; width: 100%; height: auto; gap: 2.7vw; background-color: #fbfbfd; animation: fadeIn 0.45s ease-in-out;}
+#top-bar .bar-p{padding: 10px 0; display: flex; align-items:start; justify-content: center; width: 100%; height: auto; gap: 2.5vw; background-color: #fbfbfd; animation: fadeIn 0.45s ease-in-out;}
 @keyframes fadeIn{from{opacity: 0; margin-left: 150px;}to{opacity: 1; margin-left: 0;}}
 #top-bar .bar-p a{display: inline-block; cursor: pointer; text-decoration: none; text-align: center;} 
 #top-bar .bar-p a img{margin-bottom: 5px;}

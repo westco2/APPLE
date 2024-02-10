@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../bar/custom-reset.css">
     <!-- 커스텀 css -->
     <link rel="stylesheet" href="../bar/bar.css">
+    <link rel="stylesheet" href="../bar/footer.css">
     <link rel="stylesheet" href="bid.css">
     <!-- 아이콘 -->
     <link
@@ -58,56 +59,85 @@
         </div>
     </div>
     <div class="mouw">
-    <section id="sebu">
-        <div class="title-wraper">
-            <div class="ststst">
-                <div class="buu-wrap">
-                    <div class="buyer">
-                        <h3>구매</h3>
-                        <p>결제 금액 <span>1,650,000원</span></p>
+        <section id="sebu">
+            <div class="title-wraper">
+                <div class="ststst">
+                    <div class="buu-wrap">
+                        <div class="buyer">
+                            <h3>구매</h3>
+                            <p>결제 금액 <span>1,650,000원</span></p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="bid-main">
-            <form class="bid-info" name="buyForm" action="../UI_C_3/settle.html" method="get">
-                <div class="bid-pic"><div class="bid-pic-wrap"><img src="../UI_C_1/img/내추럴 티타늄.jpeg"></div></div>
-                <div class="bid-detail-info">
-                    <h2 class="bi-title">iPhone 15 Pro <span class="bid-in">128GB</span><span class="bi-color" >내추럴 티타늄</span> </h2>
-                    
-                    <p style="font-size: 12px;">즉시구매가<span class="bi-pr">1,650,000원</span></p>
-                    <div class="bid-type-wrap">
-                        <div style="margin-bottom: 15px;">
-                            <span style="color: black; font-weight: 600; font-size: 21px;">구매<span class="co-innert" >&nbsp;방법을 선택해주세요</span></span>
+            <div class="bid-main">
+                <form class="bid-info" name="buyForm" action="../UI_C_3/settle.html" method="get">
+                    <div class="bid-pic"><div class="bid-pic-wrap"><img src="../UI_C_1/img/내추럴 티타늄.jpeg"></div></div>
+                    <div class="bid-detail-info">
+                        <h2 class="bi-title">iPhone 15 Pro <span class="bid-in">128GB</span><span class="bi-color" >내추럴 티타늄</span> </h2>
+                        
+                        <p style="font-size: 12px;">즉시구매가<span class="bi-pr">1,650,000원</span></p>
+                        <div class="bid-type-wrap">
+                            <div style="margin-bottom: 15px;">
+                                <span style="color: black; font-weight: 600; font-size: 21px;">구매<span class="co-innert" >&nbsp;방법을 선택해주세요</span></span>
+                            </div>
+                            <div class="bid-type">
+                                <input type="radio" name="bids" class="bid-type-now" checked>
+                                <label class="eem">즉시구매하기</label>
+                            </div>
+                            <div class="bid-type">
+                                <input type="radio" name="bids" class="bid-type-one">
+                                <label class="eem">구매입찰하기</label>
+                            </div>
                         </div>
-                        <div class="bid-type">
-                            <input type="radio" name="bids" class="bid-type-now" checked>
-                            <label class="eem">즉시구매하기</label>
+                        <div class="inbuy-wrap">
+                        
+                            <div class="inbuy">
+                                <input type="text" class="inpps" name="prices" >
+                                <i class="glyphicon glyphicon-circle-arrow-right" onclick="location.href='../UI_C_3/settle.html'"></i>
+                                <label class="em">구입 희망가</label>
+                            </div>
                         </div>
-                        <div class="bid-type">
-                            <input type="radio" name="bids" class="bid-type-one">
-                            <label class="eem">구매입찰하기</label>
+                        <div class="bid-buttons">
+                            <input type="submit" id="bbt"  value="구입하기" >
                         </div>
+                        
                     </div>
-                    <div class="inbuy-wrap">
-                    
-                        <div class="inbuy">
-                            <input type="text" class="inpps" name="prices" >
-                            <i class="glyphicon glyphicon-circle-arrow-right" onclick="location.href='../UI_C_3/settle.html'"></i>
-                            <label class="em">구입 희망가</label>
-                        </div>
-                    </div>
-                    <div class="bid-buttons">
-                        <input type="submit" id="bbt"  value="구입하기" >
-                    </div>
-                    
+                </form>
+            </div>
+        </section>
+        <footer style="margin-top: 50px;">
+            <div class="footer-wrap">
+                <div style="margin-bottom: 5px;">
+                    <span>apple 주식회사 · 대표 서명인</span>
+                    <span style="margin-left: 30px;">사업자등록번호 : 570-99-7777777 사업자정보확인</span>
+                    <span style="margin-left: 30px;">통신판매업 : 제 2021-서울강남C-0093호</span>
                 </div>
-            </form>
+                <div style="margin-bottom: 50px;">
+                    <span>사업장 소재지:서울특별시 강남구 테헤란로7길 7 에스코빌딩 6~7층</span>
+                    <span>호스팅 서비스 : 네이버 클라우드 ㈜</span>
+                </div>
+                <div class="footer-bot">
+                    <span style="font-weight: 600; margin-bottom: 8px;">신한은행 채무지급보증 안내</span>
+                    <p>당사는 고객님의 현금 결제 금액에 대해 신한은행과 채무지급보증 계약을 체결하여 안전거래를 보장하고 있습니다.서비스가입 사실 확인</p>
+                    <p style="line-height: 1.5; margin-bottom: 0;">크림(주)는 통신판매 중개자로서 통신판매의 당사자가 아닙니다. 본 상품은 개별판매자가 등록한 상품으로 상품, 상품정보, 거래에 관한 의무와 책임은 각 판매자에게 있습니다. 단, 이용약관 및 정책, 기타 거래 체결 과정에서 고지하는 내용 등에 따라 검수하고 보증하는 내용에 대한 책임은 크림(주)에 있습니다.</p>
+                </div>
+                <div class="footer-ad">
+                    <span>다양한 쇼핑 방법: Apple Store를 방문하거나, 리셀러를 찾아보거나, 080-330-8877번으로 전화하세요.</span>
+                </div>
+                <div style="margin-top: 10px; padding-bottom: 30px;">
+                    <span  style="margin-right: 30px;">Copyright © 2024 Apple Inc. 모든 권리 보유.</span>
+                    <span class="sop" >개인정보 처리방침</span>
+                    <span class="sop"><a class="last">약관</a></span>
+                    <span class="sop" ><a class="last">판매 및 환불</a></span>
+                    <span class="sop" ><a class="last">법적고지</a></span>
+                    <span class="sop"><a class="last">사이트 맵</a></span>
+                </div>
+            </div>
+        </footer>
         </div>
-    </section>
-    </div>
-
-    <script src="bid.js"></script>
-    <script src="../bar/bar.js"></script>
-</body>
-</html>
+    
+        <script src="bid.js"></script>
+        <script src="../bar/bar.js"></script>
+    </body>
+    </html>
