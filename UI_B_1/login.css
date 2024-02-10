@@ -8,8 +8,8 @@ body{
 }
 
 .login-wrap{
-    
-    
+    height: 620px;
+    overflow: hidden;
     margin-top: 50px;
     text-align: center;
     display: flex; align-items: center;
@@ -19,7 +19,7 @@ body{
     width: 1000px;
     padding: 40px;
     position: absolute;
-    top: 450%;
+    top: 420px;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
@@ -114,4 +114,6 @@ button{opacity: 0.7; position: absolute; border: none; bottom: 15px; right: 10px
 
 input:focus ~ .ee, input:valid ~ .ee{font-size: 11px; top: 10px;}
 input:focus ~ #btn, input:valid ~ #btn{bottom: 5px;}
+.ee{color: rgb(110, 110, 115); position: absolute; font-size: 13px; top: 21px; left: 15px; transition: all .2s;}
+input:focus ~ #btn2, input:valid ~ #btn2{bottom: 5px;}
 .ee{color: rgb(110, 110, 115); position: absolute; font-size: 13px; top: 21px; left: 15px; transition: all .2s;}

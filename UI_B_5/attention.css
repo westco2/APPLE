@@ -1,13 +1,13 @@
-#sebu{padding: 30px 10px;}
-.bid-main{width: 87.5%; margin: 0 auto; min-width: 870px; }
-.bid-info{margin-top: 12px; display: flex; justify-content: center; padding: 30px 0; border-top: 1px solid #d2d1d1; border-bottom: 1px solid #d2d1d1; gap: 30px; height: 700px;}
+#sebu{padding: 0px 33px; width: 100%;}
+.bid-main{width: 100%; margin: 0 auto; min-width: 900px; }
+.bid-info{position: relative; margin-top: 12px; display: flex; justify-content: center; padding: 30px 0; border-top: 1px solid #d2d1d1; border-bottom: 1px solid #d2d1d1; gap: 30px; }
 .bid-pic{padding-top: 20px; overflow: hidden; width: 51.33rem; flex-basis: 51.33rem;  border-radius: 18px;}
 .bid-pic img{transform: scale(1.65); /* 이미지를 1.2배 확대 */}
 .bid-detail-info{flex-basis: 54.33rem; display: flex; flex-direction: column; justify-content: start; gap: 20px;  padding-top: 10px;}
 .bid-detail-info .bi-title {font-size: 32px; font-weight: 600;}
 .bid-in{font-size: 19px; color: #86868b;}
 .bi-color {font-size: 21px; padding-left: 8px;} 
-
+.title1 h3{font-size: 20px; font-weight: 600; margin: 10px 0;}
 .bid-detail-info p {} 
 .bid-detail-info p .bi-pr {font-size: 23px; margin-left: 10px; font-weight: 600;} 
 .bid-buttons{margin-top: 20px;}

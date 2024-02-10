@@ -47,7 +47,7 @@ input[type='text']:focus{border-color: #3498db; border-width: 2px;}
 .eem{position: absolute; top: 27px; left: 16px;} 
 
 
-.co-innert {display: inline-block; font-size: 19px; color: #86868b; font-weight: 600;}
+.co-innert {display: inline-block; font-size: 21px; color: #86868b; font-weight: 600;}
 .bid-type-wrap{ margin-top: 55px; display: flex; flex-direction: column; justify-content: start; align-items: start; gap: 10px;}
 .bid-type{position: relative; padding: 0;  margin: 0 0 0px 0; font-weight: 600;  border-radius: 12px;  width: 100%; display: flex; flex-direction: column; align-items: start; justify-content: center;  text-align: left; min-height: 4.88rem; cursor: pointer;}
 

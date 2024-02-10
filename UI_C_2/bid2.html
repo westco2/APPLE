@@ -11,7 +11,7 @@
     <!-- 커스텀 css -->
     <link rel="stylesheet" href="../bar/bar.css">
     <link rel="stylesheet" href="../bar/footer.css">
-    <link rel="stylesheet" href="check.css">
+    <link rel="stylesheet" href="bid.css">
     <!-- 아이콘 -->
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
@@ -59,27 +59,53 @@
         </div>
     </div>
     <div class="mouw">
-        <div class="ck-wrap">
-            <div class="ck-title">
-                <h2>모든 준비가 완료되었습니다.</h2>
-                <p class="ck-snd">확인 내역 및 상태 업데이트를 다음 연락처로 보내드리겠습니다.</p>
-                <p style="margin-top: 15px;">westco2@naver.com</p>
-                <p style="margin-bottom: 15px;">돌아가기<a style="cursor: pointer;"href="../UI_A_3/store.html">&nbsp;apple스토어</a></p>
-                <p style="font-size: 12px;">주문번호:<span>&nbsp;#kg2301992jf2</span></p>
-            </div>
-            <div class="ck-content">
-                <div class="ck-text">
-                    <h3>기간 2024/02/12 -<br>2024-02-18</h3>
-                    <p>아이폰 15 pro 128bg 내추럴티타늄</p>
-                    <p>구매입찰&nbsp; <span>1,600,000원</span></p>
-                </div>
-                <div class="ck-img">
-                    <div class="ck-img-wrap">
-                        <img src="../UI_C_1/img/내추럴 티타늄.jpeg">
+        <section id="sebu">
+            <div class="title-wraper">
+                <div class="ststst">
+                    <div class="buu-wrap">
+                        <div class="buyer">
+                            <h3>판매</h3>
+                            <p>판매 금액 <span>1,650,000원</span></p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="bid-main">
+                <form class="bid-info" name="buyForm" action="../UI_C_3/settle.html" method="get">
+                    <div class="bid-pic"><div class="bid-pic-wrap"><img src="../UI_C_1/img/내추럴 티타늄.jpeg"></div></div>
+                    <div class="bid-detail-info">
+                        <h2 class="bi-title">iPhone 15 Pro <span class="bid-in">128GB</span><span class="bi-color" >내추럴 티타늄</span> </h2>
+                        
+                        <p style="font-size: 12px;">즉시판매가<span class="bi-pr">1,650,000원</span></p>
+                        <div class="bid-type-wrap">
+                            <div style="margin-bottom: 15px;">
+                                <span style="color: black; font-weight: 600; font-size: 23px;">판매.<span class="co-innert" >원하는 방법을 선택해주세요</span></span>
+                            </div>
+                            <div class="bid-type">
+                                <input type="radio" name="bids" class="bid-type-now" checked>
+                                <label class="eem">즉시판매하기</label>
+                            </div>
+                            <div class="bid-type">
+                                <input type="radio" name="bids" class="bid-type-one">
+                                <label class="eem">판매입찰하기</label>
+                            </div>
+                        </div>
+                        <div class="inbuy-wrap">
+                        
+                            <div class="inbuy">
+                                <input type="text" class="inpps" name="prices" >
+                                <i class="glyphicon glyphicon-circle-arrow-right" onclick="location.href='../UI_C_3/settle.html'"></i>
+                                <label class="em">판매 희망가</label>
+                            </div>
+                        </div>
+                        <div class="bid-buttons">
+                            <input type="submit" id="bbt"  value="판매하기" >
+                        </div>
+                        
+                    </div>
+                </form>
+            </div>
+        </section>
         <footer style="margin-top: 50px;">
             <div class="footer-wrap">
                 <div style="margin-bottom: 5px;">
@@ -109,12 +135,9 @@
                 </div>
             </div>
         </footer>
-    </div>
-
-
-
-
-    <script src="../bar/bar.js"></script>
-    <script src="check.js"></script>
-</body>
-</html>
+        </div>
+    
+        <script src="bid.js"></script>
+        <script src="../bar/bar.js"></script>
+    </body>
+    </html>

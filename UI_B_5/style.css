@@ -16,19 +16,23 @@
 }
 
 .body3 {
-    font-family: 'Mulish', sans-serif;
+    max-width: 980px;
+    margin: 0 auto;
     background-color: var(--background);
     display: flex;
     justify-content: center;
-    align-items: last baseline;
-    height: 100vh;
-    padding: 1rem;
+    align-items: start;
+    height: 60vh;
+    
 }
 
 .share-btn {
+    position: absolute;
+    top: 145px;
+    right: -27px;
     border-radius: 50%;
     appearance: none;
-    padding: 1rem;
+    
     color: var(--primary);
     outline: none;
     border: none;
