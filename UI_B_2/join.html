@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="../bar/custom-reset.css">
     <!-- 커스텀 css -->
     <link rel="stylesheet" href="../bar/bar.css">
-    <link rel="stylesheet" href="settle.css">
+    <link rel="stylesheet" href="../UI_A_4/bot.css">
+    
     <link rel="stylesheet" href="join.css">
     <link rel="stylesheet" href="../bar/footer.css">
     <!-- 아이콘 -->
@@ -55,6 +56,7 @@
                     <p><i class="ri-bookmark-line"></i><a href="../UI_B_5/attention.html">관심목록</a></p>
                     <p><i class="ri-play-circle-line"></i><a href="../UI_B_3/account.html">계정</a></p>
                     <p><i class="ri-account-circle-line"></i><a href="../UI_B_1/login.html">로그인</a></p>
+                </div>
             </div>
         </div>
     </div>
@@ -103,7 +105,30 @@
                 <button id="btt" type="submit">계속</button>
             </diV>
         </form>
+    
     </section>
+    <div class="">
+        <button class="chatbot-toggler">
+            <span class="material-symols-outlined"><img src="../UI_A_4/img/stev.png" alt=""></i></span>
+            <span class="material-symols-outlined"><i class="ri-close-line" style="font-size: 23px; font-weight: 600;"></i></span>
+        </button>
+        <div class="chatbot">
+            <header>
+                <img src="../UI_A_4/img/job.png" alt="">
+                <span class="close-btn material-symols-outlined"><i class="ri-close-line"></i></span>
+            </header>
+            <ul class="chatbox">
+                <li class="chat incoming">
+                    <span class="material-symols-outlined"><img src="../UI_A_4/img/stev.png" alt=""></span>
+                    <p>안녕하세요<br>무엇을 도와드릴까요?</p>
+                </li>
+            </ul>
+            <div class="chat-input">
+                <textarea placeholder="메시지를 입력하세요" required></textarea>
+                <span id="send-btn" class="material-symols-outlined ri-arrow-up-circle-fill"></span>
+            </div>
+        </div>
+    </div>
     <footer>
         <div class="footer-wrap">
             <div style="margin-bottom: 5px;">
@@ -135,8 +160,9 @@
     </footer>
     </div>
 
-    <script src="settle.js"></script>
+    <script src="../UI_C_3/settle.js"></script>
     <script src="../bar/bar.js"></script>
+    <script src="../UI_A_4/bot.js"></script>
     <script src="join.js"></script>
 </body>
 </html>

@@ -13,7 +13,7 @@ const createChatLi = (message, className) => {
     //이를 이용해 원하는 곳에 요소를 추가할 수 있습니다.
     const chatLi = document.createElement("li");
     chatLi.classList.add("chat", className);
-    let chatContent = className === "outgoing" ? `<p>${message}</p>` : `<span class="material-symols-outlined"><img src="img/stev.png" alt=""></span><p>${message}</p>`; 
+    let chatContent = className === "outgoing" ? `<p>${message}</p>` : `<span class="material-symols-outlined"><img src="../UI_A_4/img/stev.png" alt=""></span><p>${message}</p>`; 
     chatLi.innerHTML = chatContent;
     return chatLi;
 }
@@ -60,18 +60,18 @@ const handleChat = () => {
 
     
 }
-chatInput.addEventListener("keydown", ()=>{
-    //
-    chatInput.style.height = `${inputInitHeight}px`;
-    chatInput.style.height = `${chatInput.scrollHeight}px`;
-});
-chatInput.addEventListener("keyup", ()=>{
-    //
-    if(e.key === "Enter" && !e.shiftkey && window.innerHTML > 800){
-        e.preventDefault();
-        handleChat();
-    }
-});
+// chatInput.addEventListener("keydown", ()=>{
+//     //
+//     chatInput.style.height = `${inputInitHeight}px`;
+//     chatInput.style.height = `${chatInput.scrollHeight}px`;
+// });
+// chatInput.addEventListener("keyup", ()=>{
+//     //
+//     if(e.key === "Enter" && !e.shiftkey && window.innerHTML > 800){
+//         e.preventDefault();
+//         handleChat();
+//     }
+// });
 
 chatbotToggler.addEventListener("click", () => document.body.classList.toggle("show-chatbot"));
 chatbotCloseBtn.addEventListener("click", () => document.body.classList.remove("show-chatbot"));

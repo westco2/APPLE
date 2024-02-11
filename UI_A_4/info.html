@@ -4,13 +4,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="bot.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
 </head>
 
-<body>
+<body style="background: #000;">
   <section class="iphoneMock">
     <div class="container">
       <div class="iphone initAnimation">
@@ -547,31 +551,37 @@
       </div>
     </div>
   </section>
+
+  <div class="close-box">
+    <i class="ri-close-fill" onclick="history.back()"></i>
+  </div>
 <!-- chatBot -->
-  <body class="">
-    <button class="chatbot-toggler">
-        <span class="material-symols-outlined"><img src="img/stev.png" alt=""></i></span>
-        <span class="material-symols-outlined"><i class="fa fa-close" style="font-size: 19px;"></i></span>
-    </button>
+<!-- <div class="">
+  <button class="chatbot-toggler">
+      <span class="material-symols-outlined"><img src="img/stev.png" alt=""></i></span>
+      <span class="material-symols-outlined"><i class="fa fa-close" style="font-size: 19px;"></i></span>
+  </button>
 <div class="chatbot">
-    <header>
-        <img src="img/job.png" alt="">
-        <span class="close-btn material-symols-outlined"><i class="fa fa-close"></i></span>
-    </header>
-    <ul class="chatbox">
-        <li class="chat incoming">
-            <span class="material-symols-outlined"><img src="img/stev.png" alt=""></span>
-            <p>안녕하세요<br>무엇을 도와드릴까요?</p>
-        </li>
-    </ul>
-    <div class="chat-input">
-        <textarea placeholder="메시지를 입력하세요" required></textarea>
-        <span id="send-btn" class="material-symols-outlined glyphicon glyphicon-upload"></span></span>
-    </div>
+  <header>
+      <img src="img/job.png" alt="">
+      <span class="close-btn material-symols-outlined"><i class="fa fa-close"></i></span>
+  </header>
+  <ul class="chatbox">
+      <li class="chat incoming">
+          <span class="material-symols-outlined"><img src="img/stev.png" alt=""></span>
+          <p>안녕하세요<br>무엇을 도와드릴까요?</p>
+      </li>
+  </ul>
+  <div class="chat-input">
+      <textarea placeholder="메시지를 입력하세요" required></textarea>
+      <span id="send-btn" class="material-symols-outlined ri-arrow-up-circle-fill"></span>
+  </div>
+</div>
 </div>
 
 
 
+<script src="bot.js"></script> -->
   <!-- jquery cdn -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
     integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
@@ -581,7 +591,7 @@
   <script src="script.js"></script>
   <!-- bot JS -->
 
-  <script src="bot.js" defer></script>
+  
 </body>
 
 </html>
