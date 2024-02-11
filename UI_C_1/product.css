@@ -4,8 +4,8 @@
 .stick .restick{ background-color: #fff; transform: translateY(-100%); transition: transform 0.5s ease-in-out; }
 .stc-head{border:  1px solid #e8e8ed; display: flex; justify-content: space-between; padding: 10px 0; overflow: hidden;}
 .st-container{display: flex; width: 87.5%; margin: auto; min-width: 980px;}
-.pric1-wrap{text-align: right; margin-left: auto;}
-.pric1{transition: opacity .5s ease-out,transform .5s ease-out; opacity: 1; transform: translateY(0);}
+.pric1-wrap{text-align: right; margin-left: auto; display: flex; align-items: center;}
+.pric1{display: flex; justify-content: center; align-items: center; transition: opacity .5s ease-out,transform .5s ease-out; opacity: 1; transform: translateY(0);}
 
 .att-stic{animation: fadeIn 0.2s ease-in-out; display: none; width: 100%;  transition: opacity 0.2s ease-in-out;}
 .att-bar{background-color: #0071E3; width: 100%; position: relative; }
@@ -16,7 +16,7 @@
 
 .dimensionColor{margin-top: 0;}
 .dimensionColor h2{margin-top: 0;}
-.title h3 span{font-size: 20px; color: #86868b;}
+.title h3 span{font-size: 18px; color: #86868b;}
 
 .prod-main{width: 87.5%; margin: auto; min-width: 980px;}
 .prod-title-wrap{display: flex; align-items: flex-start; padding: 52px 0 60px;}
@@ -38,6 +38,7 @@
 .col-kind{display: inline-block; list-style: none; margin-bottom: 20px; padding: 0;}
 .col-item{margin: 4px 5px 40px 0; float: left; display: flex; justify-content: space-around; align-items: center; gap: 15px;}
 .typei{}
+.reple-content p a{display: inline-block;}
 a{cursor: pointer; display: block;}
 input[type=radio] {
     -webkit-appearance: none;

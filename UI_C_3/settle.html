@@ -73,7 +73,7 @@
                 
                 <h4 >주소 선택:</h4>
                 <div class="address-select">
-                    <div class="nowad npnc marbot"><input type="radio" name="ad" checked><p>내주소 사용<span style="font-size: 12px; color: #86868b; margin-left: 4px;">기본값</span></p></div>
+                    <div class="nowad npnc marbot"><input type="radio" name="ad" checked><p>내 주소 사용<span style="font-size: 12px; color: #86868b; margin-left: 4px;">기본값</span></p></div>
                     <div class="nowad nonc marbot"><input type="radio" name="ad"><p>새 주소 사용</p></div>
                     <!-- <div class="a-box npnc"><p>내주소 사용 <span style="font-size: 12px; color: #86868b; margin-left: 3px;">기본값</span></p></div>
                     <div class="a-box nonc" style="margin-top: 40px;"><p>새 주소 사용</p></div> -->
@@ -117,15 +117,15 @@
                             
                         </div>
                         <div class="info-select2">
-                            <div class="nowad reads"><input type="text" class="oilo" name="cityNum" ><label class="em">우편 번호</label></div>
-                            <div class="inac"></div>
-                        </div>
-                        <div class="info-select2">
                             <div class="nowad reads"><input type="text" class="oilo" name="building" ><label class="em">건물 번지, 이름 또는 거리이름</label></div>
                             <div class="inac"></div>
                         </div>
                         <div class="info-select2">
-                            <div class="nowad reads"><input type="text" class="oilo" ><label class="em">아파트 등의 건물 출입코드(선택)</label></div>
+                            <div class="nowad reads"><input type="text" class="oilo" name="cityNum" ><label class="em">우편 번호</label></div>
+                            <div class="inac"></div>
+                        </div>
+                        <div class="info-select2">
+                            <div class="nowad reads"><input type="text" class="oilo" ><label class="em">아파트 등의 건물 세부정보</label></div>
                             <div class="inac"></div>
                         </div>
                     </div>
@@ -177,6 +177,7 @@
         </div>
     
         <script src="settle.js"></script>
+        <script src="settle_post_no.js"></script>
         <script src="../bar/bar.js"></script>
     </body>
     </html>

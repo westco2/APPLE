@@ -11,7 +11,7 @@
     <!-- 커스텀 css -->
     <link rel="stylesheet" href="../bar/bar.css">
     <link rel="stylesheet" href="../bar/footer.css">
-    <link rel="stylesheet" href="bid.css">
+    <link rel="stylesheet" href="settle.css">
     <!-- 아이콘 -->
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
@@ -59,54 +59,85 @@
         </div>
     </div>
     <div class="mouw">
-        <section id="sebu">
-            <div class="title-wraper">
-                <div class="ststst">
-                    <div class="buu-wrap">
-                        <div class="buyer">
-                            <h3>판매</h3>
-                            <p>판매 금액 <span>1,650,000원</span></p>
-                        </div>
+        <section id="settles">
+            <div class="ststst">
+                <div class="buu-wrap">
+                    <div class="buyer">
+                        <h3>판매</h3>
+                        <p>판매 금액 <span>1,650,000원</span></p>
                     </div>
                 </div>
             </div>
-            <div class="bid-main">
-                <form class="bid-info" name="buyForm" action="../UI_C_3/settle_sell.html" method="get">
-                    <div class="bid-pic"><div class="bid-pic-wrap"><img src="../UI_C_1/img/내추럴 티타늄.jpeg"></div></div>
-                    <div class="bid-detail-info">
-                        <h2 class="bi-title">iPhone 15 Pro <span class="bid-in">128GB</span><span class="bi-color" >내추럴 티타늄</span> </h2>
-                        
-                        <p style="font-size: 12px;">즉시판매가<span class="bi-pr">1,650,000원</span></p>
-                        <div class="bid-type-wrap">
-                            <div style="margin-bottom: 15px;">
-                                <span style="color: black; font-weight: 600; font-size: 23px;">판매.<span class="co-innert" >원하는 방법을 선택해주세요</span></span>
-                            </div>
-                            <div class="bid-type">
-                                <input type="radio" name="bids" class="bid-type-now" checked>
-                                <label class="eem">즉시판매하기</label>
-                            </div>
-                            <div class="bid-type">
-                                <input type="radio" name="bids" class="bid-type-one">
-                                <label class="eem">판매입찰하기</label>
-                            </div>
+            <form class="set-main" id="myForm" name="orff" action="../UI_C_4/check.html" method="get">
+                <h1 style="font-weight: 600; font-size: 35px;">판매하신 돈이 어디로 입금되길 원하십니까?</h1>
+                
+                <h4 >계좌 선택:</h4>
+                <div class="address-select">
+                    <div class="nowad npnc marbot"><input type="radio" name="ad" checked><p>내 계좌 사용<span style="font-size: 12px; color: #86868b; margin-left: 4px;">기본값</span></p></div>
+                    <div class="nowad nonc marbot"><input type="radio" name="ad"><p>새 계좌 사용</p></div>
+                    <!-- <div class="a-box npnc"><p>내주소 사용 <span style="font-size: 12px; color: #86868b; margin-left: 3px;">기본값</span></p></div>
+                    <div class="a-box nonc" style="margin-top: 40px;"><p>새 주소 사용</p></div> -->
+                    <div class="new-address" >
+                        <div class="info-select2">
+                            <div class="nowad"><input type="text" class="oilo" name="firstName" ><label class="em">성</label></div>
+                            <div class="inac"></div>
                         </div>
-                        <div class="inbuy-wrap">
-                        
-                            <div class="inbuy">
-                                <input type="text" class="inpps" name="prices" >
-                                <i class="glyphicon glyphicon-circle-arrow-right" onclick="location.href='../UI_C_3/settle.html'"></i>
-                                <label class="em">판매 희망가</label>
-                            </div>
+                        <div class="info-select2">
+                            <div class="nowad"><input type="text" class="oilo" name="lastName" ><label class="em">이름</label></div>
+                            <div class="inac"></div>
                         </div>
-                        <div class="bid-buttons">
-                            <input type="submit" id="bbt"  value="판매하기" >
+                        <div class="info-select roow">
+                            <div class="bt-box" style="margin-top: 10xp;">
+                                <select class="oilo" id="pwwr"  name="reselt">
+                                    <option value="">은행</option>
+                                    <option value="KB국민">KB국민</option>
+                                    <option value="IBK기업">IBK기업</option>
+                                    <option value="토스뱅크">토스뱅크</option>
+                                    <option value="NH농협">NH농협</option>
+                                    <option value="신한">신한</option>
+                                    <option value="우리">우리</option>
+                                    <option value="하나">하나</option>
+                                    <option value="새마을">새마을</option>
+                                    <option value="부산">부산</option>
+                                    <option value="우체국">우체국</option>
+                                    <option value="신협">신협</option>
+                                    <option value="광주">광주</option>
+                                    <option value="제주">제주</option>
+                                    <option value="전북">전북</option>
+                                    <option value="저축은행">저축은행</option>
+                                    <option value="JP모건">JP모건</option>
+                                    <option value="수협">수협</option>
+                                </select>
+                                <label class="em">은행</label>
+                                <div class="icco">
+                                    <i class="glyphicon glyphicon-menu-down"></i>
+                                </div>
+                              </div>
+                            <div class="nowad reads"><input type="text" class="oilo" name="city" ><label class="em" >기타은행</label></div>
+                            
                         </div>
-                        
+                        <div class="info-select2">
+                            <div class="nowad reads"><input type="text" class="oilo" name="cityNum" ><label class="em">계좌 번호</label></div>
+                            <div class="inac"></div>
+                        </div>
                     </div>
-                </form>
-            </div>
+                </div>
+                <h4>연락처 정보를 알려주세요.</h4>
+                <div class="info-select">
+                    <div style="margin-bottom: 15px;">
+                        <div class="nowad marbot reads " style="margin-bottom: 5px;"><input type="text" class="oilo" name="eMail" required><label class="em">이메일 주소</label></div>
+                        <div class="inac" style="margin-bottom: 5px;" ></div>
+                    </div>
+                    <div class="nowad marbot reads " style="margin-bottom: 5px;"><input type="text" class="oilo" name="phNum" required><label class="em">핸드폰 번호</label></div>
+                    <div class="inac" style="margin-bottom: 5px;"></div>
+                </div>
+                <div style="width: 100%; height: 2px; border-top: 1px solid #cbc8c8; margin: 20px 0;"></div>
+                <diV class="address-select">
+                    <input type="submit" value="판매">
+                </diV>
+            </form>
         </section>
-        <footer style="margin-top: 50px;">
+        <footer>
             <div class="footer-wrap">
                 <div style="margin-bottom: 5px;">
                     <span>apple 주식회사 · 대표 서명인</span>
@@ -137,7 +168,7 @@
         </footer>
         </div>
     
-        <script src="bid.js"></script>
+        <script src="settle_sell.js"></script>
         <script src="../bar/bar.js"></script>
     </body>
     </html>

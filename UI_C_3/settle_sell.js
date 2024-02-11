@@ -4,7 +4,7 @@ var vovo = document.querySelector('.new-address');
 var clac = document.querySelector(".clac");
 document.querySelector('.nonc').addEventListener('click',()=>{
      
-     vovo.style.height = '593px';
+     vovo.style.height = '400px';
      formInputs.forEach(input => {
           
           
@@ -42,7 +42,6 @@ formInputs.forEach(input => {
           e.target.nextElementSibling.left='15px';
           e.target.nextElementSibling.style.color='';
           e.target.style.borderColor= '';
-          e.target.style.borderWidth= '';
           e.target.style.backgroundColor= '';
           e.target.parentElement.nextElementSibling.innerHTML="";
          }
@@ -66,4 +65,3 @@ formInputs.forEach(input => {
       
      })
  })
-

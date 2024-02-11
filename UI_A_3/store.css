@@ -283,10 +283,13 @@ body {
     opacity: 1;
  }
 
-
- .att-stic{animation: fadeIn 0.2s ease-in-out; display: none; width: 100%;  transition: opacity 0.2s ease-in-out;}
+.att-stic2{animation: fadeIn 0.3s ease-in-out; display: none; width: 100%;  transition: opacity 0.2s ease-in-out;}
+.att-stic{animation: fadeIn 0.2s ease-in-out; display: none; width: 100%;  transition: opacity 0.2s ease-in-out;}
 .att-bar{background-color: #0071E3; width: 100%; position: relative; }
-.att-wrap{padding: 20px 0; color: #fff; text-align: center; display: flex; justify-content: center; align-items: center; font-size: 12px;}
+.att-wrap{padding: 15px 0; color: #fff; text-align: center; display: flex; justify-content: center; align-items: center; font-size: 12px;}
 .att-wrap p{margin: 0; }
 .att-wrap a{display: inline-block; text-decoration: none; color: #fff; margin-left: 10px;}
-.att-clo{position: absolute; cursor: pointer; top: 12px; right:450px; color: #fff; font-size: 23px;}
+.att-clo{position: absolute; cursor: pointer; top: 7px; right:450px; color: #fff; font-size: 23px;}
+
+
+.att-fix{position: sticky; top: 0; width: 100%; z-index: 10;}

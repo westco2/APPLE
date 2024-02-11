@@ -44,10 +44,15 @@ function toggleButton() {
 function toggleText() {
   var textElement = document.getElementById("text");
   if (textElement.textContent === "즉시구매가1,650,000원") {
-      textElement.innerHTML = "<a style='font-size: 15px;'>제거</a>";
+      textElement.innerHTML = "<a style='font-size: 15px; cursor: pointer; padding-bottom: 10px;' onclick='del(this)'; >제거</a>";
   } else {
       textElement.innerHTML = '<p id="text" style="font-size: 18px;">즉시구매가<span class="bi-pr">1,650,000원</span></p>';
   }
+}
+var info = document.querySelector(".bid-info");
+function del(t){
+  t.parentElement.parentElement.parentElement.remove();
+  document.querySelector('.empty').style.display= 'flex';
 }
 
 
