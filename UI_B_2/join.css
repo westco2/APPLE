@@ -1,4 +1,4 @@
-#settles{max-width: 1024px; margin: 0 auto; position: relative;}
+#settles{max-width: 1024px; margin: 0 auto; position: relative; min-height: 880px;}
 
 .ststst{ position: sticky; top: 0; z-index: 10; background-color: #ffffff;}
 .buyer{width: 100%;  overflow: hidden;  }
@@ -30,7 +30,7 @@
     cursor: text; 
     position: relative;  
     line-height: 1.5; 
-    box-newsizing: border-box; 
+    box-sizing: border-box; 
 }
 /* .info-select2 .bt-box { 
     margin: 0 0 10px 0; 

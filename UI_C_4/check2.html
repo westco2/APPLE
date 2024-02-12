@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="../bar/custom-reset.css">
     <!-- 커스텀 css -->
     <link rel="stylesheet" href="../bar/bar.css">
-    <link rel="stylesheet" href="../UI_A_4/bot.css">
     <link rel="stylesheet" href="../bar/footer.css">
-    <link rel="stylesheet" href="settle.css">
+    <link rel="stylesheet" href="../UI_A_4/bot.css">
+    <link rel="stylesheet" href="check.css">
     <!-- 아이콘 -->
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
@@ -60,92 +60,27 @@
         </div>
     </div>
     <div class="mouw">
-        <section id="settles">
-            <div class="ststst">
-                <div class="buu-wrap">
-                    <div class="buyer">
-                        <h3>결제</h3>
-                        <p>결제 금액 <span>1,650,000원</span></p>
+        <div class="ck-wrap">
+            <div class="ck-title">
+                <h2>모든 준비가 완료되었습니다.</h2>
+                <p class="ck-snd">확인 내역 및 상태 업데이트를 다음 연락처로 보내드리겠습니다.</p>
+                <p style="margin-top: 15px;">westco2@naver.com</p>
+                <p style="margin-bottom: 15px;">돌아가기<a style="cursor: pointer;"href="../UI_A_3/store.html">&nbsp;apple스토어</a></p>
+                <p style="font-size: 12px;">주문번호:<span>&nbsp;#kg2301992jf2</span></p>
+            </div>
+            <div class="ck-content">
+                <div class="ck-text">
+                    <h3>입고 2024/02/12 -<br>2024-02-18</h3>
+                    <p>아이폰 15 pro 128bg 내추럴티타늄</p>
+                    <p>판매&nbsp; <span>1,600,000원</span></p>
+                </div>
+                <div class="ck-img">
+                    <div class="ck-img-wrap">
+                        <img src="../UI_C_1/img/내추럴 티타늄.jpeg">
                     </div>
                 </div>
             </div>
-            <form class="set-main" id="myForm" name="orff" action="settle2.html" method="get">
-                <h1 style="font-weight: 600; font-size: 35px;">주문하신 제품이 어디로 배송되길 원하십니까?</h1>
-                
-                <h4 >주소 선택:</h4>
-                <div class="address-select">
-                    <div class="nowad npnc marbot"><input type="radio" name="ad" checked><p>내 주소 사용<span style="font-size: 12px; color: #86868b; margin-left: 4px;">기본값</span></p></div>
-                    <div class="nowad nonc marbot"><input type="radio" name="ad"><p>새 주소 사용</p></div>
-                    <!-- <div class="a-box npnc"><p>내주소 사용 <span style="font-size: 12px; color: #86868b; margin-left: 3px;">기본값</span></p></div>
-                    <div class="a-box nonc" style="margin-top: 40px;"><p>새 주소 사용</p></div> -->
-                    <div class="new-address" >
-                        <div class="info-select2">
-                            <div class="nowad"><input type="text" class="oilo" name="firstName" ><label class="em">성</label></div>
-                            <div class="inac"></div>
-                        </div>
-                        <div class="info-select2">
-                            <div class="nowad"><input type="text" class="oilo" name="lastName" ><label class="em">이름</label></div>
-                            <div class="inac"></div>
-                        </div>
-                        <div class="info-select roow">
-                            <div class="bt-box" style="margin-top: 10xp;">
-                                <select class="oilo" id="pwwr"  name="reselt">
-                                    <option value="">시/도</option>
-                                    <option value="강원도">강원도</option>
-                                    <option value="경기도">경기도</option>
-                                    <option value="경상남도">경상남도</option>
-                                    <option value="경상북도">경상북도</option>
-                                    <option value="전라남도">전라남도</option>
-                                    <option value="전라북도">전라북도</option>
-                                    <option value="제주도">제주도</option>
-                                    <option value="충청남도">충청남도</option>
-                                    <option value="충청북도">충청북도</option>
-                                    <option value="서울">서울</option>
-                                    <option value="부산">부산</option>
-                                    <option value="대구">대구</option>
-                                    <option value="인천">인천</option>
-                                    <option value="광주">광주</option>
-                                    <option value="대전">대전</option>
-                                    <option value="울산">울산</option>
-                                    <option value="세종">세종</option>
-                                </select>
-                                <label class="em">시/도</label>
-                                <div class="icco">
-                                    <i class="glyphicon glyphicon-menu-down"></i>
-                                </div>
-                              </div>
-                            <div class="nowad reads"><input type="text" class="oilo" name="city" ><label class="em" >지역/도시</label></div>
-                            
-                        </div>
-                        <div class="info-select2">
-                            <div class="nowad reads"><input type="text" class="oilo" name="building" ><label class="em">건물 번지, 이름 또는 거리이름</label></div>
-                            <div class="inac"></div>
-                        </div>
-                        <div class="info-select2">
-                            <div class="nowad reads"><input type="text" class="oilo" name="cityNum" ><label class="em">우편 번호</label></div>
-                            <div class="inac"></div>
-                        </div>
-                        <div class="info-select2">
-                            <div class="nowad reads"><input type="text" class="oilo" ><label class="em">아파트 등의 건물 세부정보</label></div>
-                            <div class="inac"></div>
-                        </div>
-                    </div>
-                </div>
-                <h4>연락처 정보를 알려주세요.</h4>
-                <div class="info-select">
-                    <div style="margin-bottom: 15px;">
-                        <div class="nowad marbot reads " style="margin-bottom: 5px;"><input type="text" class="oilo" name="eMail" required><label class="em">이메일 주소</label></div>
-                        <div class="inac" style="margin-bottom: 5px;" ></div>
-                    </div>
-                    <div class="nowad marbot reads " style="margin-bottom: 5px;"><input type="text" class="oilo" name="phNum" required><label class="em">핸드폰 번호</label></div>
-                    <div class="inac" style="margin-bottom: 5px;"></div>
-                </div>
-                <div style="width: 100%; height: 2px; border-top: 1px solid #cbc8c8; margin: 20px 0;"></div>
-                <diV class="address-select">
-                    <input type="submit" value="결제 페이지로 이동">
-                </diV>
-            </form>
-        </section>
+        </div>
         <div class="">
             <button class="chatbot-toggler">
                 <span class="material-symols-outlined"><img src="../UI_A_4/img/stev.png" alt=""></i></span>
@@ -168,7 +103,7 @@
                 </div>
             </div>
         </div>
-        <footer>
+        <footer style="margin-top: 50px;">
             <div class="footer-wrap">
                 <div style="margin-bottom: 5px;">
                     <span>apple 주식회사 · 대표 서명인</span>
@@ -197,11 +132,13 @@
                 </div>
             </div>
         </footer>
-        </div>
-    
-        <script src="settle.js"></script>
-        <script src="/UI_A_4/bot.js"></script>
-        <script src="settle_post_no.js"></script>
-        <script src="../bar/bar.js"></script>
-    </body>
-    </html>
+    </div>
+
+
+
+
+    <script src="../bar/bar.js"></script>
+    <script src="check.js"></script>
+    <script src="../UI_A_4/bot.js"></script>
+</body>
+</html>

@@ -21,7 +21,7 @@
 .prod-main{width: 87.5%; margin: auto; min-width: 980px;}
 .prod-title-wrap{display: flex; align-items: flex-start; padding: 52px 0 60px;}
 .prod-pic{display: flex; flex-wrap: wrap;flex-direction: row; justify-content: center; gap: 18px; width: 100%; padding: 10px 0 0 10px;}
-.prod-left{flex-basis: calc(100% - 22.82353rem); max-width: calc(90% - 24.82353rem); padding-right: 10px; top: 109px; height: calc(100vh - 109px); min-height: 340px; position: sticky; }
+.prod-left{flex-basis: calc(100% - 22.82353rem); max-width: calc(90% - 26.82353rem); padding-right: 10px; top: 109px; height: calc(100vh - 109px); min-height: 340px; position: sticky; }
 .prod-le-wrap{position: absolute; width: 85%; height: 100%;}
 .le-wraps{position: relative;}
 .gre{border-radius: 18px;}

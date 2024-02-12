@@ -15,6 +15,7 @@
     <!-- 커스텀 css -->
     <link rel="stylesheet" href="../bar/bar.css">
     <link rel="stylesheet" href="../bar/footer.css">
+    <link rel="stylesheet" href="../UI_A_4/bot.css">
     <link rel="stylesheet" href="style.css">
     <!-- 아이콘 -->
     <link
@@ -71,8 +72,30 @@
         </div>
         
     </div>
+    <div class="">
+        <button class="chatbot-toggler">
+            <span class="material-symols-outlined"><img src="../UI_A_4/img/stev.png" alt=""></i></span>
+            <span class="material-symols-outlined"><i class="ri-close-line" style="font-size: 23px; font-weight: 600;"></i></span>
+        </button>
+        <div class="chatbot">
+            <header>
+                <img src="../UI_A_4/img/job.png" alt="">
+                <span class="close-btn material-symols-outlined"><i class="ri-close-line"></i></span>
+            </header>
+            <ul class="chatbox">
+                <li class="chat incoming">
+                    <span class="material-symols-outlined"><img src="../UI_A_4/img/stev.png" alt=""></span>
+                    <p>안녕하세요<br>무엇을 도와드릴까요?</p>
+                </li>
+            </ul>
+            <div class="chat-input">
+                <textarea placeholder="메시지를 입력하세요" required></textarea>
+                <span id="send-btn" class="material-symols-outlined ri-arrow-up-circle-fill"></span>
+            </div>
+        </div>
+    </div>
     <footer>
-        <div class="footer-wrap">
+        <div class="footer-wrap" >
             <div style="margin-bottom: 5px;">
                 <span>apple 주식회사 · 대표 서명인</span>
                 <span style="margin-left: 30px;">사업자등록번호 : 570-99-7777777 사업자정보확인</span>
@@ -103,6 +126,7 @@
     <script src="dist/purify.min.js"></script>
     <script src="script.js"></script>
     <script src="../bar/bar.js"></script>
+    <script src="../UI_A_4/bot.js"></script>
 </div>
 </body>
 </html>

@@ -3059,3 +3059,7 @@ li {
 .imggg p{color: #ffffff; font-size: 15px; font-weight: 600;}
 .mmm{ display: flex; justify-content: start; align-items: start; gap: 20px;}
 
+
+.close-box{position: fixed; top: 70px; left: 150px;}
+.close-box i{color: #ffffff; font-size: 30px;  cursor: pointer;}
+
