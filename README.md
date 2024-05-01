@@ -17,7 +17,7 @@
 24.02.02 ~ 24.02.09
 
 ## 페이지
-#### 로그인/ 회원가 페이지
+#### 로그인/ 회원가입 페이지
 
 ![screencapture-127-0-0-1-5501-UI-B-1-login-html-2024-04-28-22_24_45](https://github.com/westco2/APPLE/assets/148563632/e97a0fb6-be72-43f5-aa5b-09503d120b41)
 ![screencapture-127-0-0-1-5501-UI-B-2-join-html-2024-04-28-22_25_57](https://github.com/westco2/APPLE/assets/148563632/077bf7bf-1665-46a8-884c-67907d7815ae)
